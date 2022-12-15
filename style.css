@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+/* ------------Heading---------------- */
+.white {
+	color: white;
+	margin-left: -850px;
+}
+
+.white h1 {
+	font-size: 1.5rem;
+	margin-top: 12px;
+	color: #00000087;
+}
+
+/* ---------------navbar------------------- */
+.navbar {
+	display: flex;
+	padding: 30px;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-list li a:hover {
+	color: grey;
+}
+
+/* -----------logo--------------- */
+.logo-image {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -6px;
+}
+
+/* -------------------Content-------------- */
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.container h1 {
+	font-size: 3.75rem;
+	padding-bottom: 20px;
+	font-weight: bold;
+	color: #01010178
+}
+
+.container h3 {
+	font-size: 2.75rem;
+}
+
+/* ----------------donate-------------- */
+.donate {
+	padding: 20px;
+	background-color: rgba(228, 228, 228, 0.8);
+	border-radius: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 20%;
+	text-align: start;
+}
+
+input,
+textarea {
+	display: inline-block;
+	width: 70%;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+/* -----------About content---------- */
+.about {
+	margin-top: -10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.tittle-agileits-w3layouts {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #000000;
+
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.media-body h4 {
+	font-weight: bold;
+	padding: 5px;
+	color: #000000;
+}
+
+.content {
+	min-height: 93vh;
+}
+
+/* --------------donate button---------------- */
+.btn {
+	border: none;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background: #00000066;
+	color: white;
+	letter-spacing: 1.5px;
+	font-size: 17px;
+	margin-top: -25px;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+/* ---------------footer-------------- */
+footer {
+	text-align: center;
+	background-color: rgba(228, 228, 228, 0.545);
+	overflow: hidden;
+	padding-top: 8px;
+	margin-top: 20px;
+}
+
+/* ---------------background color------------------ */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
