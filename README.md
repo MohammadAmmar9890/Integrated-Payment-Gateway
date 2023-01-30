@@ -1,8 +1,7 @@
-# Task 2 - Integrated Payment Gateway
+# Integrated Payment Gateway
 
 #### Technologies: HTML, CSS
 #### IDE Used: Visual Studio Code
-#### Batch:  #GRIPDECEMBER22
 
 ## Screenshort:
 ### 1. Home Page
